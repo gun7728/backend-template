@@ -1,0 +1,28 @@
+{
+  "name": "@your/packageName",
+  "version": "0.1.0",
+  "description": "API for PROJECT",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "AUTHOR",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@nestia/fetcher": "^4.6.2",
+    "typia": "^7.6.4"
+  },
+  "include": [
+    "lib",
+    "package.json",
+    "swagger.json",
+    "README.md"
+  ]
+}
