@@ -65,8 +65,14 @@ $ npm run prisma:sync
 ```bash
 # Need to login npm or your Verdaccio
 
-$ npm run sdk:json
+#root directory
+$ mkdir -p packages/api
+
 $ npm run sdk:build
+
+
+#If you update the package.publish.json, run this 
+$ npm run sdk:json
 $ npm run sdk:publish
 ```
 

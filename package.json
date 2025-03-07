@@ -25,7 +25,7 @@
     "prisma:sync": "npx prisma db pull&& npx prisma generate",
     "sdk:json": "cp package.publish.json packages/api/package.json && cp rollup.config.js packages/api/rollup.config.js",
     "sdk:build": "nestia all && npx tsc -p packages/api/tsconfig.json && npm run sdk:json && npx rollup -c packages/api/rollup.config.js",
-    "sdk:publish": " cd packages/api && npm publish --registry https://gun-dev.kro.kr/verdaccio/"
+    "sdk:publish": " cd packages/api && npm publish --registry vlt_your_own_verdaccio_url"
   },
   "dependencies": {
     "@nestia/core": "^4.6.1",
